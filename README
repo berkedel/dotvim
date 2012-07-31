@@ -1,6 +1,6 @@
 Installation:
-	git clone https://github.com/berkedel/dotvim.git ~/.vim
+	git clone --recursive https://github.com/berkedel/dotvim.git ~/.vim
 
-Set symlinks:
+Create symlinks:
 	ln -s ~/.vim/vimrc ~/.vimrc
 	ln -s ~/.vim/gvimrc ~/.gvimrc
