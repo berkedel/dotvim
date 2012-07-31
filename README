@@ -1,5 +1,10 @@
 Installation:
+- With version 1.6.5 of Git and later, you can use:
 	git clone --recursive https://github.com/berkedel/dotvim.git ~/.vim
+- For older Git version, just use:
+    git clone https://github.com/berkedel/dotvim.git ~/.vim
+    cd ~/.vim
+    git submodule update --init
 
 Create symlinks:
 	ln -s ~/.vim/vimrc ~/.vimrc
