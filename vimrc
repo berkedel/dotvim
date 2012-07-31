@@ -125,3 +125,11 @@ nnoremap <C-l> <C-w>l
 "no backup nor swap file
 set nobackup
 set noswapfile
+
+"set color scheme
+if &t_Co >= 256 || has("gui_running")
+    colorscheme molokai
+endif
+if &t_Co > 2 || has("gui_running")
+    syntax on
+endif
