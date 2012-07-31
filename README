@@ -1,0 +1,6 @@
+Installation:
+	git clone https://github.com/berkedel/dotvim.git ~/.vim
+
+Set symlinks:
+	ln -s ~/.vim/vimrc ~/.vimrc
+	ln -s ~/.vim/gvimrc ~/.gvimrc
