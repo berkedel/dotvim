@@ -22,3 +22,6 @@
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = git://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/super-tab"]
+	path = bundle/super-tab
+	url = git://github.com/ervandew/supertab.git
